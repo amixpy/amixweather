@@ -1,3 +1,52 @@
+# AmixWeather
+
+A modern, responsive weather website built with HTML, CSS, and JavaScript using OpenWeatherMap API.
+
+## Features
+
+- Current weather data
+- 5-day weather forecast
+- Detailed weather information including:
+  - Temperature
+  - Feels like temperature
+  - Humidity
+  - Weather description
+  - Wind speed
+  - Pressure
+  - Visibility
+  - Cloud cover
+- Location-based weather using Geolocation API
+- Manual city search as fallback
+- Clean and modern UI
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- OpenWeatherMap API
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+This website was created by Amix.
+
+## Usage
+
+1. Clone the repository
+2. Replace the API key in `script.js` with your OpenWeatherMap API key
+3. Open `index.html` in your browser
+4. Allow location access to get weather data for your location or enter a city name manually
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests. All contributions are welcome!
+
+## License
+
 MIT License
 
 Copyright (c) 2025 Amix

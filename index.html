@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmixWeather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AmixWeather</h1>
+        <div class="location-container">
+            <div id="location">Detecting location...</div>
+            <div class="manual-input">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button onclick="fetchWeatherByCity()">Get Weather</button>
+            </div>
+        </div>
+        <div id="weather">
+            <div class="weather-item">
+                <span class="label">Temperature:</span>
+                <span id="temp">...</span> °C
+            </div>
+            <div class="weather-item">
+                <span class="label">Feels Like:</span>
+                <span id="feels_like">...</span> °C
+            </div>
+            <div class="weather-item">
+                <span class="label">Humidity:</span>
+                <span id="humidity">...</span>%
+            </div>
+            <div class="weather-item">
+                <span class="label">Weather:</span>
+                <span id="description">...</span>
+            </div>
+            <div class="weather-item">
+                <span class="label">Wind Speed:</span>
+                <span id="wind">...</span> m/s
+            </div>
+            <div class="weather-item">
+                <span class="label">Pressure:</span>
+                <span id="pressure">...</span> hPa
+            </div>
+            <div class="weather-item">
+                <span class="label">Visibility:</span>
+                <span id="visibility">...</span> m
+            </div>
+            <div class="weather-item">
+                <span class="label">Cloud Cover:</span>
+                <span id="clouds">...</span>%
+            </div>
+        </div>
+        <div id="error" class="error-message"></div>
+    </div>
+    <footer style="margin-top: 2rem; padding: 1rem; text-align: center; color: #666;">
+        <p>Created by Amix • 2025 • MIT License</p>
+        <p>Powered by OpenWeatherMap API</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
